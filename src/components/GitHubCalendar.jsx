@@ -7,22 +7,25 @@ const GitHubCalendar = ({ username }) => {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    // In a real application, you would fetch actual GitHub contribution data
-    // For this demo, we'll generate mock data
-    const generateMockData = () => {
-      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-      const mockData = months.map(month => ({
-        name: month,
-        contributions: Math.floor(Math.random() * 100) + 10
-      }))
-      return mockData
-    }
+    // Fixed data based on 253 contributions
+    const fixedContributionData = [
+      { name: 'Jan', contributions: 20 },
+      { name: 'Feb', contributions: 18 },
+      { name: 'Mar', contributions: 25 },
+      { name: 'Apr', contributions: 30 },
+      { name: 'May', contributions: 22 },
+      { name: 'Jun', contributions: 28 },
+      { name: 'Jul', contributions: 24 },
+      { name: 'Aug', contributions: 26 },
+      { name: 'Sep', contributions: 20 },
+      { name: 'Oct', contributions: 20 },
+      { name: 'Nov', contributions: 10 },
+      { name: 'Dec', contributions: 10 },
+    ]
 
     try {
-      // Simulate API call delay
       setTimeout(() => {
-        const data = generateMockData()
-        setContributionData(data)
+        setContributionData(fixedContributionData)
         setLoading(false)
       }, 1000)
     } catch (err) {
@@ -55,7 +58,7 @@ const GitHubCalendar = ({ username }) => {
 
   return (
     <div>
-      <h3 className="text-xl font-semibold mb-4">Contribution Activity for {username}</h3>
+      <h3 className="text-xl font-semibold mb-4">Contribution Activity for pavan77749</h3>
       <div className="h-80">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={contributionData} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
@@ -72,7 +75,7 @@ const GitHubCalendar = ({ username }) => {
         </ResponsiveContainer>
       </div>
       <div className="mt-4 text-center text-sm text-gray-500 dark:text-gray-400">
-        Note: This is simulated data for demonstration purposes.
+        Note: Data is based on a fixed contribution count of 253.
       </div>
     </div>
   )

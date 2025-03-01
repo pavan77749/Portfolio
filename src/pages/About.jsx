@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { FiDownload, FiExternalLink } from 'react-icons/fi'
 import GitHubCalendar from '../components/GitHubCalendar'
 import profileImg from "../assets/profileimg.jpg"
+import resumePdf from "../assets/resume.pdf";
+
 
 const About = () => {
   const skills = [
@@ -15,6 +17,7 @@ const About = () => {
     { name: 'Git', level: 85 },
     { name: 'NEXT.JS', level: 80 },
     { name: 'Postman', level: 80 },
+    { name: 'Aparche E-chart', level: 78 },
     { name: 'DSA', level: 60 },
   ]
 
@@ -57,7 +60,7 @@ const About = () => {
               
               <div className="flex flex-wrap gap-4">
                 <motion.a
-                  href="/resume.pdf"
+                  href={resumePdf}
                   className="btn-primary flex items-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -66,7 +69,7 @@ const About = () => {
                   <FiDownload /> Download Resume
                 </motion.a>
                 <motion.a
-                  href="/resume.pdf"
+                  href={resumePdf}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline flex items-center gap-2"

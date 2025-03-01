@@ -5,45 +5,40 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Senior Frontend Developer',
-      company: 'Tech Innovations Inc.',
-      location: 'San Francisco, CA',
-      period: 'Jan 2022 - Present',
+      title: 'Frontend Intern',
+      company: 'Karpuragaurai Technologies',
+      location: 'Remote',
+      period: 'Jan 2025 - Present',
       description: [
-        'Led a team of 5 developers in building a new customer portal using React and TypeScript',
-        'Implemented CI/CD pipelines that reduced deployment time by 40%',
-        'Optimized application performance, improving load times by 60%',
-        'Mentored junior developers and conducted code reviews',
+        'Currently working on frontend development using Next.js, TailwindCSS, and Postman.',
+        'Responsible for building frontend tasks and REST APIs using Postman.' ,
+        'Gaining hands-on experience in team collaboration and contributing to real-time projects'
       ],
-      technologies: ['React', 'TypeScript', 'Redux', 'Tailwind CSS', 'Jest'],
+      technologies: ['NEXTJS','Tailwind CSS','Aparche E-Charts', 'Api Integration','UI fixes','GIT/GITHUB'],
     },
     {
       id: 2,
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions LLC',
-      location: 'Austin, TX',
-      period: 'Mar 2019 - Dec 2021',
+      title: 'Developer',
+      company: 'CodeYantra',
+      location: 'Mira Road',
+      period: 'JUL 2023 - Present',
       description: [
-        'Developed and maintained multiple client projects using the MERN stack',
-        'Created RESTful APIs and integrated third-party services',
-        'Implemented responsive designs and ensured cross-browser compatibility',
-        'Participated in agile development processes and sprint planning',
+        'Developed and maintained CodeYantras official website using HTML, CSS, and JavaScript, ensuring a responsive and user-friendly design',
+        'Delivered engaging web development lectures to students, covering core concepts and best practices'
       ],
-      technologies: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
+      technologies: ['HTML','CSS','JAVASCRIPT'],
     },
     {
       id: 3,
-      title: 'Web Developer',
-      company: 'Creative Agency',
-      location: 'Seattle, WA',
-      period: 'Jun 2017 - Feb 2019',
+      title: 'Full Stack Develper',
+      company: 'Bharat Intern',
+      location: 'Remote',
+      period: 'MAR 2024 - Apr 2024',
       description: [
-        'Built and maintained websites for various clients using HTML, CSS, and JavaScript',
-        'Collaborated with designers to implement pixel-perfect UI components',
-        'Optimized websites for maximum speed and scalability',
-        'Ensured websites were responsive and accessible',
+       'Completed an internship at BharatIntern, working on full-stack development.',
+        'Developed an Experience Tracker & Authentication System.'
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'WordPress'],
+      technologies: ['Reactjs','Tailwindcss','Authentication','JWT','MongoDB','Mongoose','Expressjs'],
     },
   ]
 

@@ -1,44 +1,39 @@
 import { motion } from 'framer-motion'
 import { FiAward, FiCalendar, FiExternalLink } from 'react-icons/fi'
+import mernimg from '../assets/mern.png'
+import figmaimg from '../assets/figma.png'
+import networkimg from '../assets/network.png'
 
 const Certifications = () => {
   const certifications = [
     {
       id: 1,
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: 'Dec 2022',
+      title: 'MERN Stack: All You Need to Know with Practical Project',
+      issuer: 'Jahid Hiron',
+      date: 'Nov 3, 2024',
       description: 'Validates expertise in designing and deploying scalable systems on AWS.',
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      url: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/',
+      image: mernimg,
+      url: 'https://www.udemy.com/certificate/UC-42140727-c672-4314-a2c4-6ee5c19425ee/',
     },
     {
       id: 2,
-      title: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      date: 'Aug 2022',
+      title:'Figma Essential for User Interface and User Experience UI UX',
+      issuer: 'Learnify IT',
+      date: 'Aug 14,2024',
       description: 'Comprehensive program covering React, JavaScript, HTML, CSS, and UI/UX principles.',
-      image: 'https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      url: 'https://www.coursera.org/professional-certificates/meta-front-end-developer',
+      image:figmaimg,
+      url: 'https://www.udemy.com/certificate/UC-3c057403-c2ea-4dc0-8adb-682e4f72ee3c/',
     },
     {
       id: 3,
-      title: 'MongoDB Developer Certification',
-      issuer: 'MongoDB University',
-      date: 'Mar 2022',
+      title: 'Network Mastery for Ethical Hackers',
+      issuer: 'Cyber Twinkle',
+      date: 'Aug 13, 2024',
       description: 'Demonstrates proficiency in building applications with MongoDB.',
-      image: 'https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      url: 'https://university.mongodb.com/certification',
+      image: networkimg,
+      url: 'https://www.udemy.com/certificate/UC-ebc04cac-160e-446b-9f4d-23208a916ee5/',
     },
-    {
-      id: 4,
-      title: 'Google UX Design Professional Certificate',
-      issuer: 'Google',
-      date: 'Nov 2021',
-      description: 'Comprehensive training in user experience design principles and methodologies.',
-      image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      url: 'https://www.coursera.org/professional-certificates/google-ux-design',
-    },
+   
   ]
 
   const containerVariants = {
@@ -108,9 +103,7 @@ const Certifications = () => {
                   </div>
                 </div>
                 
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
-                  {cert.description}
-                </p>
+               
                 
                 <motion.a
                   href={cert.url}
