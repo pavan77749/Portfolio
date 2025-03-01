@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { FiDownload, FiExternalLink } from 'react-icons/fi'
 import GitHubCalendar from '../components/GitHubCalendar'
 import profileImg from "../assets/profileimg.jpg"
-import resumePdf from "../assets/resume.pdf";
+import resumePdf from "../assets/Resume.pdf";
 
 
 const About = () => {
