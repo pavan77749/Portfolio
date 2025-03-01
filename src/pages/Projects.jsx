@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player/lazy'
 import eCommerceImage from '../assets/ecommerce.png';
 import imdbImage from '../assets/imdb.png';
 import unipicImage from '../assets/unipic.jpg';
-import zomatoImage from '../assets/zomato.jpg';
+
 import trenningLMSImage from '../assets/lms.png';
 
 
@@ -51,7 +51,7 @@ const Projects = () => {
       id: 4,
       title: 'Zomato Clone',
       description: 'This is a full-stack Zomato clone web application built using the MERN stack. It allows users to browse restaurant listings, order food, and process payments via a Stripe integration. The app also provides separate interfaces for customers, restaurant owners, and admins.',
-      image: zomatoImage,
+      // image: zomatoImage,
       video: 'https://youtu.be/GhZrilFGD0c',
       technologies: ['React.js','Tailwind CSS','Zod','Shadcn ui','Zustand','Postman','Node.js', 'Express', 'MongoDB', 'JWT'],
       category: 'fullstack',
