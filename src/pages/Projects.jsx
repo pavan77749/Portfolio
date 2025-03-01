@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiGithub, FiExternalLink, FiFilter } from 'react-icons/fi'
 import ReactPlayer from 'react-player/lazy'
-import eCommerceImage from '../assets/ecommerce.png';
-import imdbImage from '../assets/imdb.png';
-import unipicImage from '../assets/unipic.jpg';
-import zomatoImage from '../assets/zomato.jpg';
-import trenningLMSImage from '../assets/lms.png';
+import eCommerceImage from '../../src/assets/ecommerce.png'
+import imdbImage from '../../src/assets/imdb.png';
+import unipicImage from '../../src/assets/unipic.jpg';
+import zomatoImage from '../../src/assets/zomato.jpg';
+import trenningLMSImage from '../../src/assets/lms.png';
 
 
 
