@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FiArrowRight, FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
-import profileImg from '../assets/profileimg.jpg'
+
 
 const Home = () => {
   return (
@@ -66,7 +66,7 @@ Proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), I also ha
             <div className="relative">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary-light to-secondary-light dark:from-primary-dark dark:to-secondary-dark blur opacity-70"></div>
               <img
-                src={profileImg}
+                src='./img/profileimg.jpg'
                 alt="Pavan Gupta"
                 className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white dark:border-gray-800"
               />

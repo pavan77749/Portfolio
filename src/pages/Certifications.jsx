@@ -1,8 +1,6 @@
 import { motion } from 'framer-motion'
 import { FiAward, FiCalendar, FiExternalLink } from 'react-icons/fi'
-import mernimg from '../assets/mern.png'
-import figmaimg from '../assets/figma.png'
-import networkimg from '../assets/network.png'
+
 
 const Certifications = () => {
   const certifications = [
@@ -12,7 +10,7 @@ const Certifications = () => {
       issuer: 'Jahid Hiron',
       date: 'Nov 3, 2024',
       description: 'Validates expertise in designing and deploying scalable systems on AWS.',
-      image: mernimg,
+      image: './img/mern.png',
       url: 'https://www.udemy.com/certificate/UC-42140727-c672-4314-a2c4-6ee5c19425ee/',
     },
     {
@@ -21,7 +19,7 @@ const Certifications = () => {
       issuer: 'Learnify IT',
       date: 'Aug 14,2024',
       description: 'Comprehensive program covering React, JavaScript, HTML, CSS, and UI/UX principles.',
-      image:figmaimg,
+      image:'./img/figma.png',
       url: 'https://www.udemy.com/certificate/UC-3c057403-c2ea-4dc0-8adb-682e4f72ee3c/',
     },
     {
@@ -30,7 +28,7 @@ const Certifications = () => {
       issuer: 'Cyber Twinkle',
       date: 'Aug 13, 2024',
       description: 'Demonstrates proficiency in building applications with MongoDB.',
-      image: networkimg,
+      image: './img/network.png',
       url: 'https://www.udemy.com/certificate/UC-ebc04cac-160e-446b-9f4d-23208a916ee5/',
     },
    

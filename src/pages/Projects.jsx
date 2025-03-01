@@ -2,11 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiGithub, FiExternalLink, FiFilter } from 'react-icons/fi'
 import ReactPlayer from 'react-player/lazy'
-import eCommerceImage from '../../src/assets/ecommerce.png'
-import imdbImage from '../../src/assets/imdb.png';
-import unipicImage from '../../src/assets/unipic.jpg';
-import zomatoImage from '../../src/assets/zomato.jpg';
-import trenningLMSImage from '../../src/assets/lms.png';
+
 
 
 
@@ -19,7 +15,7 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Platform',
       description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
-      image: eCommerceImage,
+      image: './img/ecommerce.png',
       video: "https://youtu.be/O8bGJ6AgcMQ",
       technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe','Tailwind CSS','Postman','JWT'],
       category: 'fullstack',
@@ -29,7 +25,7 @@ const Projects = () => {
       id: 2,
       title: 'IMDB CLONE ',
       description: 'This project is a clone of IMDb built using the Next.js framework and styled with Tailwind CSS. It leverages The Movie Database (TMDb) API to fetch movie data. The application is deployed on Vercel and offers a seamless user experience with dark/light mode, searching functionality, and category options.',
-      image: imdbImage,
+      image: './img/imdb.png',
       video: 'https://youtu.be/q7Wa8qDVhzI',
       technologies: ['Nextjs', 'Tailwind CSS', 'Api Integration'],
       category: 'frontend',
@@ -40,7 +36,7 @@ const Projects = () => {
       id: 3,
       title: 'Unipick Image',
       description: 'UniPic Photo Gallery is a web application built using React.js, CSS, JavaScript, the Unsplash API, and Bootstrap. It serves as a platform for users to explore and discover a vast collection of high-quality photos sourced from Unsplash.',
-      image: unipicImage,
+      image: './img/unipic.jpg',
       video: 'https://youtu.be/htXU4LwL8Xw',
       technologies: ['React.js', 'Tailwind CSS', 'Unsplash Api Integration'],
       category: 'frontend',
@@ -51,7 +47,7 @@ const Projects = () => {
       id: 4,
       title: 'Zomato Clone',
       description: 'This is a full-stack Zomato clone web application built using the MERN stack. It allows users to browse restaurant listings, order food, and process payments via a Stripe integration. The app also provides separate interfaces for customers, restaurant owners, and admins.',
-      image: zomatoImage,
+      image: './img/zomato.jpg',
       video: 'https://youtu.be/GhZrilFGD0c',
       technologies: ['React.js','Tailwind CSS','Zod','Shadcn ui','Zustand','Postman','Node.js', 'Express', 'MongoDB', 'JWT'],
       category: 'fullstack',
@@ -62,7 +58,7 @@ const Projects = () => {
       id: 4,
       title: 'Trenning LSM Platform',
       description: 'Work in Progess',
-      image:trenningLMSImage ,
+      image: './img/lms.png',
       video: '',
       technologies: ['React.js','Tailwind CSS','Redux Toolkit','Shadcn ui','Postman','Node.js', 'Express', 'MongoDB', 'JWT','Stripe Payment Gateway'],
       category: 'fullstack',

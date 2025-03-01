@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 import { FiDownload, FiExternalLink } from 'react-icons/fi'
 import GitHubCalendar from '../components/GitHubCalendar'
-import profileImg from "../assets/profileimg.jpg"
-import resumePdf from "../assets/Resume.pdf";
+
 
 
 const About = () => {
@@ -60,7 +59,7 @@ const About = () => {
               
               <div className="flex flex-wrap gap-4">
                 <motion.a
-                  href={resumePdf}
+                  href='./re'
                   className="btn-primary flex items-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -69,7 +68,7 @@ const About = () => {
                   <FiDownload /> Download Resume
                 </motion.a>
                 <motion.a
-                  href={resumePdf}
+                  href='./Resume.pdf'
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline flex items-center gap-2"
@@ -83,7 +82,7 @@ const About = () => {
             
             <div>
               <img
-                src={profileImg}
+                src='./img/profileimg.jpg'
                 alt="PAVAN GUPTA"
                 className="w-full h-auto rounded-lg shadow-md"
               />
