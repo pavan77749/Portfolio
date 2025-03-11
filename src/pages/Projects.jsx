@@ -13,14 +13,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
-      image: './img/ecommerce.png',
-      video: "https://youtu.be/O8bGJ6AgcMQ",
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe','Tailwind CSS','Postman','JWT'],
+      title: 'Trenning LSM Platform',
+      description: 'I built a complete LMS platform using the MERN stack and Redux Toolkit, making it easy to manage online courses. The admin panel allows admins to create courses and lectures effortlessly. I implemented secure authentication with protected routes to ensure only authorized users can access specific features. For payments, I integrated Stripe, making transactions smooth and secure. The dashboard also includes transaction charts, giving admins clear insights into payments and user activity.',
+      image: './img/lms.png',
+      video: 'https://youtu.be/MqVUptG4nJU',
+      technologies: ['React.js','Tailwind CSS','Redux Toolkit','Shadcn ui','Postman','Node.js', 'Express', 'MongoDB', 'JWT','Stripe Payment Gateway'],
       category: 'fullstack',
-      github: 'https://github.com/pavan77749/ecommerce',
+      github: 'https://github.com/pavan77749/trenning-LMS',
     },
+    
     {
       id: 2,
       title: 'IMDB CLONE ',
@@ -55,14 +56,14 @@ const Projects = () => {
      
     },
     {
-      id: 4,
-      title: 'Trenning LSM Platform',
-      description: 'Work in Progess',
-      image: './img/lms.png',
-      video: '',
-      technologies: ['React.js','Tailwind CSS','Redux Toolkit','Shadcn ui','Postman','Node.js', 'Express', 'MongoDB', 'JWT','Stripe Payment Gateway'],
+      id: 5,
+      title: 'E-Commerce Platform',
+      description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
+      image: './img/ecommerce.png',
+      video: "https://youtu.be/O8bGJ6AgcMQ",
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe','Tailwind CSS','Postman','JWT'],
       category: 'fullstack',
-      github: 'https://github.com/pavan77749/trenning-LMS',
+      github: 'https://github.com/pavan77749/ecommerce',
     },
    
   ]
