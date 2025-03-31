@@ -18,6 +18,7 @@ const About = () => {
     { name: 'Postman', level: 80 },
     { name: 'Aparche E-chart', level: 78 },
     { name: 'DSA', level: 60 },
+    {name:'Agentic Ai n8n ', level:80}
   ]
 
   const containerVariants = {
