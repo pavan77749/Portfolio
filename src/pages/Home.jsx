@@ -61,15 +61,15 @@ Proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), I also ha
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center "
           >
             <div className="relative">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary-light to-secondary-light dark:from-primary-dark dark:to-secondary-dark blur opacity-70"></div>
               <img
-                src='./img/profileimg.jpg'
-                alt="Pavan Gupta"
-                className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white dark:border-gray-800"
-              />
+  src='./img/profileimg.jpg'
+  alt="Pavan Gupta"
+  className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-4 border-white dark:border-gray-800"
+/>
             </div>
           </motion.div>
         </div>

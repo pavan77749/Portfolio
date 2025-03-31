@@ -33,7 +33,6 @@ export default function ContactMe() {
       const result = await res.json();
 
       if (result.success) {
-    
         setIsSubmitted(true);
         reset(); // Clear the form
       } else {
@@ -127,7 +126,7 @@ export default function ContactMe() {
                     <label className="block text-sm font-medium mb-2">First Name</label>
                     <input
                       type="text"
-                      className="contact--input"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       {...register('firstName', { required: 'First Name is required' })}
                     />
                     {errors.firstName && (
@@ -138,7 +137,7 @@ export default function ContactMe() {
                     <label className="block text-sm font-medium mb-2">Last Name</label>
                     <input
                       type="text"
-                      className="contact--input"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       {...register('lastName', { required: 'Last Name is required' })}
                     />
                     {errors.lastName && (
@@ -150,7 +149,7 @@ export default function ContactMe() {
                   <label className="block text-sm font-medium mb-2">Email</label>
                   <input
                     type="email"
-                    className="contact--input"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     {...register('email', { required: 'Email is required' })}
                   />
                   {errors.email && (
@@ -160,7 +159,7 @@ export default function ContactMe() {
                 <div className="mb-6">
                   <label className="block text-sm font-medium mb-2">Message</label>
                   <textarea
-                    className="contact--input"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     rows="5"
                     {...register('message', { required: 'Message is required' })}
                   ></textarea>
