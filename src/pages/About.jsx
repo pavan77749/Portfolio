@@ -125,7 +125,7 @@ const About = () => {
         >
           <h2 className="section-title">GitHub Contributions</h2>
           <div className="mt-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
-            <GitHubCalendar username="yourusername" />
+            <GitHubCalendar username="pavan77749" />
           </div>
         </motion.div>
       </div>
