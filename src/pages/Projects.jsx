@@ -65,6 +65,16 @@ const Projects = () => {
       category: 'fullstack',
       github: 'https://github.com/pavan77749/ecommerce',
     },
+     {
+      id: 6,
+      title: 'MicroServices Based Spotify Clone',
+      description: 'A production-level Spotify clone built using microservice architecture. It includes separate services for users, songs, and admin operations, built with Node.js, PostgreSQL, MongoDB, and Redis.Deployed on AWS EC2 with JWT authentication and media handling via Cloudinary.',
+      image: './img/spotify.png',
+      video: "https://youtu.be/D2nmRQJ9hIc?si=selY6UEWUiKEtHPD",
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Postgress SQL','Tailwind CSS','Postman','JWT','Redis','AWS EC2', 'Cloudinary','Microservices'],
+      category: 'fullstack',
+      github: 'https://github.com/pavan77749/Spotify-Microservice-Project',
+    },
    
   ]
 

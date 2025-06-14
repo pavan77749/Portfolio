@@ -21,7 +21,7 @@ const Experience = () => {
       title: 'Developer',
       company: 'CodeYantra',
       location: 'Mira Road',
-      period: 'JUL 2023 - Present',
+      period: 'JUL 2023 - May 2025',
       description: [
         'Developed and maintained CodeYantras official website using HTML, CSS, and JavaScript, ensuring a responsive and user-friendly design',
         'Delivered engaging web development lectures to students, covering core concepts and best practices'
