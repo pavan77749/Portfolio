@@ -42,9 +42,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       <div className="container-custom py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-primary-light dark:text-primary-dark">
-            PG dev
-          </Link>
-
+        <span className="text-accent text-black">&lt;PG&gt;</span> dev
+        </Link>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
