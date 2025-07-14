@@ -11,6 +11,7 @@ const About = () => {
     { name: 'Node.js', level: 80 },
     { name: 'HTML/CSS', level: 90 },
     { name: 'Tailwind CSS', level: 85 },
+    { name: 'Python', level: 75 },
     { name: 'MongoDB', level: 75 },
     { name: 'Express.js', level: 80 },
     { name: 'Git', level: 85 },
@@ -18,7 +19,8 @@ const About = () => {
     { name: 'Postman', level: 80 },
     { name: 'Aparche E-chart', level: 78 },
     { name: 'DSA', level: 60 },
-    {name:'Agentic Ai n8n ', level:80}
+    {name:'Agentic Ai n8n ', level:80},
+    {name:'Flask', level:85}
   ]
 
   const containerVariants = {
