@@ -20,8 +20,8 @@ const Home = () => {
               Full Stack Developer
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 max-w-lg">
-            I am a Software Engineer Intern & Front-End Developer Intern at Karpuragaurai Technologies Pvt. Ltd.,. My expertise lies in Full Stack MERN development, complemented by a strong grasp of UI/UX design to ensure both functionality and engagement.
-Proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), I also have experience with Next.js, Tailwind CSS, Python, DBMS, Operating Systems, and C/C++. Additionally, I specialize in API integration using Postman, optimizing system interoperability and efficiency.
+            I am a Software Engineer Intern & Software Developer Intern at Karpuragaurai Technologies Pvt. Ltd.,. My expertise lies in Full Stack MERN development along with Flask, complemented by a strong grasp of UI/UX design to ensure both functionality and engagement.
+Proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js), I also have experience with Next.js, Tailwind CSS, Python, DBMS, Operating Systems,Flask, and C/C++. Additionally, I specialize in API integration using Postman, optimizing system interoperability and efficiency.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-8">

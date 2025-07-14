@@ -5,16 +5,16 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Frontend Intern',
+      title: 'Software Developer Intern',
       company: 'Karpuragaurai Technologies',
       location: 'Remote',
       period: 'Jan 2025 - Present',
       description: [
-        'Currently working on frontend development using Next.js, TailwindCSS, and Postman.',
-        'Responsible for building frontend tasks and REST APIs using Postman.' ,
+        'Currently working on Full Stack development using Next.js, TailwindCSS,Python, Flask, Mongodb and Postman.',
+        'Responsible for building frontend tasks and REST APIs using Flask .' ,
         'Gaining hands-on experience in team collaboration and contributing to real-time projects'
       ],
-      technologies: ['NEXTJS','Tailwind CSS','Aparche E-Charts', 'Api Integration','UI fixes','GIT/GITHUB'],
+      technologies: ['NEXTJS','Tailwind CSS','Aparche E-Charts','Flask','MongoDb','Blockchain', 'Api Integration','UI fixes','GIT/GITHUB'],
     },
     {
       id: 2,
